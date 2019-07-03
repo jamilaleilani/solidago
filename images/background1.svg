@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="400px" viewBox="0 0 1024 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(0.000000, -613.000000)">
+            <g id="Group-14" transform="translate(0.000000, 613.000000)">
+                <g id="Group-3">
+                    <path d="M0,-2.27373675e-13 C371.96795,-1.08949886e-13 617.301284,-4.97379915e-14 736,-4.97379915e-14 C751.938529,-4.97379915e-14 779.62124,-1.08949886e-13 819.048134,-2.27373675e-13 L623.12025,400 L0,400 L0,-2.27373675e-13 Z" id="Rectangle-Copy" fill="#FCD7FF"></path>
+                    <path d="M520,0 C848.576344,0 1072.21387,0 1190.91259,0 C1206.85112,0 1245.12613,0 1305.73763,0 L1109.0369,400 L520,400 L520,0 Z" id="Rectangle-Copy" fill="#FFAF2C" transform="translate(912.868813, 200.000000) scale(-1, -1) translate(-912.868813, -200.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
