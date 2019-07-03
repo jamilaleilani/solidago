@@ -55,7 +55,7 @@ if($_POST["submit"]) {
       </div>
       <div id="registerForm">
         <?=$thankYou ?>
-        <form method="post" action="contact.php">
+        <form method="post" action="index.php">
           <input class="formText" type="text" name="name1" placeholder="first name"/>
           <input class="formText" type="text" name="name2" placeholder="last name"/>
           <input class="formText" type="text" name="email" placeholder="email"/>
