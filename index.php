@@ -67,7 +67,7 @@ if($_POST["submit"]) {
       </div>
       <?=$thankYou ?>
 
-     <form method="post" action="contact.php">
+     <form method="post" action="index.php">
          <label>Name:</label>
          <input name="sender">
 
