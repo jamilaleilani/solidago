@@ -2,16 +2,17 @@
 
 if($_POST["submit"]) {
     $recipient="jamilaleilanikeba@gmail.com";
-    $subject="Form to email message";
-    $sender=$_POST["sender"];
-    $senderEmail=$_POST["senderEmail"];
-    $message=$_POST["message"];
+    $subject="The Conference Registration";
+    $firstName=$_POST["name1"];
+    $lastName=$_POST["name2"];
+    $email=$_POST["email"];
+    $presenting=$_POST["presenting"];
 
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+    $mailBody="Name: $firstName $lastName\nEmail: $email\nPresenting: $presenting";
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+    mail($recipient, $subject, $mailBody, "From: $firstName $lastName <$email>");
 
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
+    $thankYou="<p>Thank you! You are now registered for The Conference.</p>";
 }
 
 ?>
@@ -53,7 +54,7 @@ if($_POST["submit"]) {
         <h2>REGISTER</h2>
       </div>
       <div id="registerForm">
-        <!-- <?=$thankYou ?> -->
+        <?=$thankYou ?>
         <form method="post" action="index.php">
           <input class="formText" type="text" name="name1" placeholder="first name"/>
           <input class="formText" type="text" name="name2" placeholder="last name"/>
@@ -65,20 +66,6 @@ if($_POST["submit"]) {
           <input class="formText" type="submit" name="sumbit" placeholder="submit"/>
         </form>
       </div>
-      <?=$thankYou ?>
-
-     <form method="post" action="index.php">
-         <label>Name:</label>
-         <input name="sender">
-
-         <label>Email address:</label>
-         <input name="senderEmail">
-
-         <label>Message:</label>
-         <textarea rows="5" cols="20" name="message"></textarea>
-
-         <input type="submit" name="submit">
-     </form>
     </section>
     <section class="section" id="section3">
       <div>
