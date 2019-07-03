@@ -136,6 +136,12 @@ p {
   margin-left: 1.5rem;
 }
 
+.formCheckbox:checked {
+  background: url(../images/checkmark.svg) no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
 /* SECTION 3*/
 
 #section3 {
