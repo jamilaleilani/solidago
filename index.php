@@ -63,6 +63,7 @@ if($_POST["submit"]) {
             <div>I'm interested in presenting</div>
             <input class="formCheckbox" type="checkbox" name="presenting"/>
           </div>
+          <input class="formText" type="submit" name="sumbit" placeholder="submit"/>
         </form>
       </div>
     </section>
