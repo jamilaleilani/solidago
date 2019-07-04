@@ -1,22 +1,3 @@
-<?php
-
-if($_POST["submit"]) {
-    $recipient="jamilaleilanikeba@gmail.com";
-    $subject="The Conference Registration";
-    $firstName=$_POST["name1"];
-    $lastName=$_POST["name2"];
-    $email=$_POST["email"];
-    $presenting=$_POST["presenting"];
-
-    $mailBody="Name: $firstName $lastName\nEmail: $email\nPresenting: $presenting";
-
-    mail($recipient, $subject, $mailBody, "From: $firstName $lastName <$email>");
-
-    $thankYou="<p>Thank you! You are now registered for The Conference.</p>";
-}
-
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,8 +35,7 @@ if($_POST["submit"]) {
         <h2>REGISTER</h2>
       </div>
       <div id="registerForm">
-        <?=$thankYou ?>
-        <form method="post" action="index.php">
+        <form action="https://formspree.io/email@domain.tld" method="POST" />
           <input class="formText" type="text" name="name1" placeholder="first name"/>
           <input class="formText" type="text" name="name2" placeholder="last name"/>
           <input class="formText" type="text" name="email" placeholder="email"/>
