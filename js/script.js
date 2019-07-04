@@ -63,7 +63,8 @@
         console.log(xhr.status, xhr.statusText);
         console.log(xhr.responseText);
         form.reset();
-        var thankYouMessage = form.querySelector(".thankyou_message");
+        form.style.display = "none"; // hide form
+        var thankYouMessage = document.querySelector("#thankyou_message");
         if (thankYouMessage) {
           thankYouMessage.style.display = "block";
         }

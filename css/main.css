@@ -142,6 +142,11 @@ p {
   background-position: center;
 }
 
+#thankyou_message p {
+  font-size: 2rem;
+  padding: 2rem 3rem;
+}
+
 /* SECTION 3*/
 
 #section3 {
