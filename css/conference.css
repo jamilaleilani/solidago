@@ -45,6 +45,7 @@ p {
   line-height: 1.8;
 }
 
+
 /* @keyframes animatedBackground {
 	from { right: 100vw; }
 	to { right: 3vw; }
@@ -140,6 +141,16 @@ p {
   background: url(../images/checkmark.svg) no-repeat;
   background-size: 50%;
   background-position: center;
+}
+
+.submitButton {
+  background: rgba(255,255,255,.5);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.formText:-internal-autofill-selected {
+  background: none !important;
 }
 
 #thankyou_message p {

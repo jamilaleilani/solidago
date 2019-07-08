@@ -63,11 +63,11 @@
         console.log(xhr.status, xhr.statusText);
         console.log(xhr.responseText);
         form.reset();
-        form.style.display = "none"; // hide form
-        var thankYouMessage = document.querySelector("#thankyou_message");
-        if (thankYouMessage) {
-          thankYouMessage.style.display = "block";
-        }
+        // form.style.display = "none"; // hide form
+        // var thankYouMessage = document.querySelector("#thankyou_message");
+        // if (thankYouMessage) {
+        //   thankYouMessage.style.display = "block";
+        // }
         return;
     };
     // url encode form data for sending as post data
