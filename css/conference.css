@@ -1,0 +1,439 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Muli, sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight:  300;
+}
+
+.mainHeader {
+  text-align: center;
+  background: #FFD460;
+  width:  100%;
+  height: 100vh;
+}
+
+.headerTitle {
+  padding-top: 25vh;
+}
+
+h1 {
+  font-size: 5vw;
+  font-family: Monoton, sans-serif;
+  padding: 1rem;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-size: 4vw;
+  font-weight: 800;
+  letter-spacing: 5px;
+  -webkit-text-stroke: 1px white;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 300;
+  font-size: 2vw;
+  letter-spacing: 0.25rem;
+  line-height: 1.8;
+}
+
+/* @keyframes animatedBackground {
+	from { right: 100vw; }
+	to { right: 3vw; }
+} */
+
+/* SECTION 2*/
+
+#section1 {
+  background: #FFAF2C url(../images/section1.svg) no-repeat;
+  height: 60vw;
+  background-size: auto 101%;
+  background-position: top 0 right 30vw;
+}
+
+#scheduleTitle {
+  z-index: 3;
+  padding: 10vh 5vh 3vh 0;
+  text-align: right;
+  /* animation: animatedBackground 2s ease-out; */
+}
+
+#schedule {
+  padding: 0 0 0 7vw;
+  z-index: 3;
+}
+
+/* SECTION 2*/
+
+#section2 {
+  background-color: #E74CFF;
+  height: 40rem;
+  display: flex;
+}
+
+#registerTitle {
+  background-color: #AAB9F0;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2rem;
+}
+
+#registerTitle h2 {
+  transform: rotate(-90deg) translate(50%, 0);
+}
+
+#registerForm {
+  margin: 0 auto 3rem auto;
+  align-self: flex-end;
+}
+
+#registerForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formCheckboxDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.formCheckboxDiv div {
+  font-size: 1.7rem;
+  letter-spacing: 0.15rem;
+}
+
+.formText, .formCheckbox {
+  border: 2px rgb(255,255,255) solid;
+  background: none;
+  width: 100%;
+  height: 4rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+::placeholder {
+  color: rgba(255,255,255,.5);
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+}
+
+.formCheckbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  width: 4rem;
+  margin-left: 1.5rem;
+}
+
+.formCheckbox:checked {
+  background: url(../images/checkmark.svg) no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+#thankyou_message p {
+  font-size: 2rem;
+  padding: 2rem 3rem;
+}
+
+/* SECTION 3*/
+
+#section3 {
+  background: url(../images/section3.svg) no-repeat;
+  height: 40rem;
+  background-size: auto 150%;
+  background-position: top 0 right 15%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#section3 div {
+  text-align: right;
+  font-size: 4.2rem;
+  line-height: 1.5;
+  width: 45rem;
+  padding: 0 5rem 5rem 0;
+}
+
+/* SECTION 4 */
+
+#section4 {
+  background-color: #FDAF01;
+  height: 40rem;
+  display: flex;
+}
+
+#connectContent {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 8vh
+}
+
+#connectText p {
+  padding-bottom: 1rem;
+  font-size: 2.5vw;
+}
+
+#connectTitle {
+  background-color: #FFD460;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 4rem;
+}
+
+#connectTitle h2 {
+  transform: rotate(90deg) translate(50%, 0);
+  width: 15rem;
+}
+
+/* SECTION 5 */
+
+
+#section5 {
+  background: url(../images/section5.svg) no-repeat;
+  height: 40rem;
+  background-size: auto 100%;
+  background-position: top 0 right -42.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote {
+  font-size: 4.3vw;
+  width:  50vw;
+  text-align: center;
+  line-height: 1.7;
+}
+
+#section6 {
+  background: url(../images/section6.svg) no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#section6 p {
+  text-align: right;
+  padding: 5rem 3rem 5rem 0;
+  align-self: flex-end;
+  font-size: 2rem;
+  line-height: 2.4;
+}
+
+#sponsorContent {
+  padding-left: 5vw;
+}
+
+#sponsorContent form {
+  width: 20rem;
+}
+
+#sponsorTitle {
+  padding: 1rem 0 3rem 0;
+  font-size: 2.8rem;
+}
+
+#section7 {
+  background: #C7EAFE;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 0 auto;
+  height: 20rem;
+}
+
+#goldenrodLogo {
+  background: url(../images/goldenrod.svg) no-repeat;
+  background-size: 6.5rem;
+  background-position: center center;
+  height: 12rem;
+  width: 100%;
+}
+
+#faqContact {
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:  0 auto;
+}
+
+#goldenrodLogo, #faqContact div, #hashtag {
+  font-size: 1.7rem;
+  padding-bottom: 2rem;
+  font-weight: 500;
+}
+
+
+/* MEDIA QUERY 3*/
+
+@media only screen and (min-width: 1250px) {
+  #section1 {
+    height: 53rem;
+  }
+
+  #schedule {
+    font-size: 1.79rem;
+  }
+
+  #connectText p {
+    font-size: 2.28rem;
+  }
+
+  #quote {
+    font-size: 4rem;
+  }
+
+  #section6 p {
+    padding: 5rem 5rem 0 0;
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: 12px;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+  }
+
+  #connectText p {
+    font-size: 1.7rem;
+  }
+
+  h1 {
+    font-size: 3.3rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  #section1 {
+    background-position: top 0 right -20vw;
+    background-size: auto 101%;
+    height: 40rem;
+  }
+
+  #schedule {
+    line-height: 1.8;
+  }
+
+  #scheduleTitle {
+    padding-right: 3vh;
+  }
+
+  #registerTitle {
+    font-size: 3rem;
+    width: 5rem;
+  }
+
+  #registerTitle h2, #connectTitle h2 {
+    font-size: 3rem;
+    width: 5rem;
+  }
+
+  .formCheckboxDiv div {
+    font-size: 1.5rem;
+    letter-spacing: 0;
+  }
+
+  /* #scheduleTitle {
+    animation: none;
+    right: unset;
+  } */
+
+  #section3 {
+    height: 30rem;
+    background-size: auto 100%;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #section3 div {
+    padding: 0 4rem;
+    text-align: center;
+    font-size: 3.65rem;
+    line-height: 1.5;
+  }
+
+  #section5 {
+    background-position: top 0 right -52.8rem;
+  }
+
+  #quote {
+    font-size: 3rem;
+    width:  80vw;
+  }
+
+  #section6 p {
+    padding: 5rem 1rem 5rem 0;
+    font-size: 1.85rem;
+  }
+
+  #sponsorContent form {
+    width: 25rem;
+  }
+
+  #sponsorTitle {
+    padding-top: .5rem 0;
+    font-size: 2rem;
+  }
+
+  #sponsorForm1, #sponsorForm2, #sponsorForm3 {
+    width: 45vw;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #section6 p {
+    padding: 5rem 1rem 5rem 0;
+    font-size: 1.5rem;
+  }
+
+  #sponsorContent {
+    width: 100vw;
+  }
+
+  #sponsorForm1 {
+    width: 15rem;
+  }
+
+  #sponsorForm2 {
+    width: 20rem;
+  }
+
+  #sponsorForm3 {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  * {
+    font-size: 10px;
+  }
+}
