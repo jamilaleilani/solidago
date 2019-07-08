@@ -60,7 +60,6 @@
     // xhr.withCredentials = true;
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
-        var width = form.clientWidth;
         console.log(xhr.status, xhr.statusText);
         console.log(xhr.responseText);
         form.reset();
@@ -71,7 +70,6 @@
         // inputs.style.display = "none"; // hide form
         var thankYouMessage = form.querySelector(".thankyouMessage");
         if (thankYouMessage) {
-          var wi = width.toString() + "px"
           thankYouMessage.style.display = "block";
           thankYouMessage.style.width = wi;
         }

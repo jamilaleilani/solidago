@@ -162,7 +162,7 @@ input {
 
 .thankyouMessage p {
   text-align: left !important;
-  font-size: 1.6em;
+  font-size: 1.6em !important;
 }
 
 /* SECTION 3*/
