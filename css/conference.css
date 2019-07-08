@@ -47,6 +47,9 @@ p {
 
 input {
   -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  border-radius: none;
 }
 
 
