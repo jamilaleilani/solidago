@@ -254,7 +254,7 @@ p {
 }
 
 #sponsorContent form {
-  width: 20rem;
+  width: 26rem;
 }
 
 #sponsorTitle {
@@ -415,7 +415,7 @@ p {
     font-size: 2rem;
   }
 
-  #sponsorForm1, #sponsorForm2, #sponsorForm3 {
+  #sponsorForm1, #sponsorForm2, #sponsorForm3, #sponsorForm4 {
     width: 45vw;
   }
 }
@@ -438,7 +438,7 @@ p {
     width: 20rem;
   }
 
-  #sponsorForm3 {
+  #sponsorForm3, #sponsorForm4 {
     width: 24rem;
   }
 }
