@@ -160,9 +160,9 @@ input {
   background: none !important;
 }
 
-#thankyou_message p {
-  font-size: 2rem;
-  padding: 2rem 3rem;
+.thankyouMessage p {
+  text-align: left !important;
+  font-size: 1.6em;
 }
 
 /* SECTION 3*/

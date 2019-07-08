@@ -60,14 +60,21 @@
     // xhr.withCredentials = true;
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
+        var width = form.clientWidth;
         console.log(xhr.status, xhr.statusText);
         console.log(xhr.responseText);
         form.reset();
-        // form.style.display = "none"; // hide form
-        // var thankYouMessage = document.querySelector("#thankyou_message");
-        // if (thankYouMessage) {
-        //   thankYouMessage.style.display = "block";
-        // }
+        var inputs = form.querySelectorAll(".hide");
+        inputs.forEach(function(element) {
+          element.style.display = "none";
+        });
+        // inputs.style.display = "none"; // hide form
+        var thankYouMessage = form.querySelector(".thankyouMessage");
+        if (thankYouMessage) {
+          var wi = width.toString() + "px"
+          thankYouMessage.style.display = "block";
+          thankYouMessage.style.width = wi;
+        }
         return;
     };
     // url encode form data for sending as post data
