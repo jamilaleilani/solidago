@@ -34,15 +34,16 @@
         <div class="section" id="contact">
           <div class="sectionTitle">contact</div>
           <div class="sectionText">
-            <div id="registerForm">
-              <form class="gform" action="https://script.google.com/macros/s/AKfycbwQMUkoXMAz-gAxqaMJGh0dxNJTAOk2bBhqSjG_BKDQ03Sa8k-8/exec" method="POST" />
-                <input class="formText hide" type="text" name="name1" placeholder="first name"/>
-                <input class="formText hide" type="text" name="name2" placeholder="last name"/>
+            <div id="contactForm">
+              <form class="gform" action="https://script.google.com/macros/s/AKfycbw8sNtR6M3vgzLvplaHDFMw1H3jZLOyYwNIz3WmXJZb2i8DWK_k/exec" method="POST">
+                <input class="formText hide" type="text" name="firstName" placeholder="first name"/>
+                <input class="formText hide" type="text" name="lastName" placeholder="last name"/>
                 <input class="formText hide" type="text" name="email" placeholder="email"/>
-                <input class="formText hide" type="text" name="message" placeholder="message"/>
+                <input class="formText hide" type="text" name="meggage" placeholder="message"/>
+                <input class="hide" type="hidden" name="form" value="contact form" />
                 <input class="formText submitButton hide" type="submit" name="sumbit" placeholder="submit"/>
                 <div class="thankyouMessage" style="display:none;">
-                  <p style="padding:2rem;">Thank you for your message! I will be in touch soon.</p>
+                  <p>Thanks for reaching out! I'll be in touch soon.</p>
                 </div>
               </form>
             </div>
