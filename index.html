@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The Conference 2019</title>
+  <title>Solidago</title>
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Monoton|Muli:300,400,500&display=swap" rel="stylesheet">
   <script type="text/javascript" src="js/jQuery-3.3.1.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-  <link rel="shortcut icon" type="image/png" href="images/goldenrodFav.png?"/>
+  <script type="text/javascript" src="js/contactFormScript.js"></script>
+  <!-- <link rel="shortcut icon" type="image/png" href="images/goldenrodFav.png?"/> -->
 </head>
 <body>
-  <div id="goldenrod"></div>
+  <div id="mainPage">
+    <div id="allContent">
+      <div id="mainHeading">Solidago</div>
+      <div id="pageContent">
+        <div class="section" id="about">
+          <div class="sectionTitle">about</div>
+          <div class="sectionText">
+            Solidago, the latin name for Goldenrod, meaning to strengthen, to make whole
+          </div>
+        </div>
+        <div class="section" id="events">
+          <div class="sectionTitle">events</div>
+          <div class="sectionText">
+            goldenrodsf.com/conference
+          </div>
+        </div>
+        <div class="section" id="space">
+          <div class="sectionTitle">space</div>
+          <div class="sectionText">
+            a space where people will be able to gather, learn, experience
+          </div>
+        </div>
+        <div class="section" id="contact">
+          <div class="sectionTitle">contact</div>
+          <div class="sectionText">
+            <div id="registerForm">
+              <form class="gform" action="https://script.google.com/macros/s/AKfycbwQMUkoXMAz-gAxqaMJGh0dxNJTAOk2bBhqSjG_BKDQ03Sa8k-8/exec" method="POST" />
+                <input class="formText hide" type="text" name="name1" placeholder="first name"/>
+                <input class="formText hide" type="text" name="name2" placeholder="last name"/>
+                <input class="formText hide" type="text" name="email" placeholder="email"/>
+                <input class="formText hide" type="text" name="message" placeholder="message"/>
+                <input class="formText submitButton hide" type="submit" name="sumbit" placeholder="submit"/>
+                <div class="thankyouMessage" style="display:none;">
+                  <p style="padding:2rem;">Thank you for your message! I will be in touch soon.</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
