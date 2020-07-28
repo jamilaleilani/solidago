@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   margin: 10vw;
-  background: rgba(255,255,255,.5);
+  background: rgba(255,255,255,.4);
   font-family: avenir;
   padding: 10vw 0;
 }
@@ -33,12 +33,12 @@
 }
 
 #mainHeading {
-  font-size: min(9vw, 6rem);
+  font-size: min(9vw, 4rem);
   text-transform: uppercase;
 }
 
 .section {
-  background: rgba(255, 215, 0, .5);
+  background: rgba(2337, 157, 0, .6);
   width: 80%;
   margin:  2vh;
   height: 10vh;
@@ -55,7 +55,7 @@
 }
 
 .sectionTitle {
-  font-size: min(5vw, 2rem);
+  font-size: min(5vw, 1.75rem);
 }
 
 .sectionText {
@@ -78,8 +78,8 @@
   }
 
   .section {
-    width: 40%;
-    height: 14vh;
+    width: 30%;
+    height: 15vh;
     margin:  2vw;
   }
 }
